@@ -1,0 +1,6 @@
+public double round2(double valor) //Redondea a 2 cifras decimales.
+    {
+        DecimalFormat numS = new DecimalFormat("#.00");
+        double respuesta=Double.parseDouble(numS.format(valor));
+        return respuesta;
+    }
